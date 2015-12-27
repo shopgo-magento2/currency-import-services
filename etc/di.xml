@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Directory\Model\Currency\Import\Config">
+        <arguments>
+            <argument name="servicesConfig" xsi:type="array">
+                <item name="yahoo" xsi:type="array">
+                    <item name="label" xsi:type="string">Yahoo</item>
+                    <item name="class" xsi:type="string">ShopGo\CurrencyImportServices\Model\Currency\Import\Yahoo</item>
+                </item>
+                <item name="google" xsi:type="array">
+                    <item name="label" xsi:type="string">Google</item>
+                    <item name="class" xsi:type="string">ShopGo\CurrencyImportServices\Model\Currency\Import\Google</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
