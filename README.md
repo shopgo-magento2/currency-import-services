@@ -1,6 +1,8 @@
 Currency Import Services
 ========================
 
+[![Dependency Status](https://www.versioneye.com/user/projects/56818d62eb4f470030000219/badge.svg)](https://www.versioneye.com/user/projects/56818d62eb4f470030000219)
+[![GitHub version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/shopgo-magento2/currency-import-services/releases/tag/1.0.0)
 
 #### Contents
 *   <a href="#syn">Synopsis</a>
@@ -13,7 +15,7 @@ Currency Import Services
 
 <h2 id="syn">Synopsis</h2>
 
-This module adds additional currency rate import services to Magento 2.0.
+This module adds additional currency rate import services to Magento 2.
 
 <h2 id="over">Overview</h2>
 
@@ -61,10 +63,11 @@ The following confirms you installed the module correctly, and that it's enabled
         List of enabled modules:
         ...
         ShopGo_CurrencyImportServices
+        ...
 
 <h2 id="tests">Tests</h2>
 
-Unit tests can be found in Magento 2 [app/code/Magento/Directory/Test/Unit](https://github.com/magento/magento2/tree/develop/app/code/Magento/Directory/Test/Unit) directory.
+Unit tests can be found in Magento 2 [app/code/Magento/Directory/Test/Unit](https://github.com/magento/magento2/tree/2.0/app/code/Magento/Directory/Test/Unit) directory.
 
 <h2 id="contrib">Contributors</h2>
 
