@@ -32,7 +32,7 @@ First, make sure that Composer is installed: https://getcomposer.org/doc/00-intr
 
 Make sure that Packagist repository is not disabled.
 
-Run Composer require to install it:
+Run Composer require to install the module:
 
     php <your Composer install dir>/composer.phar require shopgo/currency-import-services:~1.0
 
