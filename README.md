@@ -30,7 +30,7 @@ Below, you can find two ways to install the currency import services module. Wit
 ### 1. Install via Composer
 First, make sure that Composer is installed: https://getcomposer.org/doc/00-intro.md
 
-Add the currency import services module repository's URL:
+Add the currency import services module repository's URL (Skip this step in case Packagist repository is enabled):
 
     php <your Composer install dir>/composer.phar config repositories.shopgo-cis vcs https://github.com/shopgo/currency-import-services
 
