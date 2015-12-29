@@ -1,6 +1,6 @@
 {
     "name": "shopgo/currency-import-services",
-    "description": "A module that adds Yahoo! Finance and Google Finance currency rate import services to Magento 2.0.",
+    "description": "A module that adds additional currency rate import services (e.g. Yahoo, Google) to Magento 2.",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
