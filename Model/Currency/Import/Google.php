@@ -75,6 +75,10 @@ class Google extends \Magento\Directory\Model\Currency\Import\AbstractImport
                 'GET'
             )->getBody();
 
+            // Not a pretty sight!
+            // But, we are forced to do that,
+            // because Google does not provide
+            // an API for currency conversion.
             $data = explode('bld>', $response);
 
             if (empty($data[1])) {
@@ -83,14 +87,13 @@ class Google extends \Magento\Directory\Model\Currency\Import\AbstractImport
             }
 
             $data = explode($currencyTo, $data[1]);
-            $rate = null;
 
             if(empty($data[0])) {
                 $this->_messages[] = __('We can\'t retrieve a rate from %1.', $url);
                 return null;
-            } else {
-                $rate = $data[0];
             }
+
+            $rate = $data[0];
 
             return (double) $rate;
         } catch (\Exception $e) {
