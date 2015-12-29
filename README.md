@@ -27,7 +27,7 @@ And sometimes, it returns empty results for some currencies.
 
 Below, you can find two ways to install the currency import services module. With the release of Magento 2.0, you'll also be able to install modules using the Magento Marketplaces.
 
-### 1. Install via Composer
+### 1. Install via Composer (Recommended)
 First, make sure that Composer is installed: https://getcomposer.org/doc/00-intro.md
 
 Make sure that Packagist repository is not disabled.
